@@ -86,7 +86,7 @@ a img{
     
 }
 .imgmd {
-    background: #fff url("IMG/13380024_5215212.jpg");
+    background: #fff url("../IMG/13380024_5215212.jpg");
     background-size: cover;
     height: 1004px;
     padding-top: 100px;
