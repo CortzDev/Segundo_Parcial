@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+header, section, article, nav, footer, aside, figure, form{
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    background: #ffffff;
+}
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a img{
+    width: 150px;
+    border: none;
+    float: left;
+
+}
+#cajacabercera{
+    width: 100%;
+    background: rgb(17,17,17);
+    background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(253,29,29,1) 50%);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+#cabecera{
+    width: 100%;
+    max-width: 1100px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+#logo{
+    width: 5%;
+    padding-top: 5px;
+    padding-right: 150px;
+}
+.menu{
+    width: 80%;
+}
+#btn-menu{
+    display: none;
+}
+#mmovil{
+    font-size: 30px;
+    cursor: pointer;
+    text-align: right;
+    color: #edbc65;
+    display: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu a{
+    display: block;
+    line-height: 90px;
+    padding: 0 10px;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+}
+.menu a i{
+    font-size:40px;
+    padding: 0 5px;
+}
+.menu a:hover{
+    color: #fff;
+    border-bottom: 2px solid #f2f2f2;
+    background-color: #4f0000;
+}
+.seccion{
+    padding-top: 100px;
+    width: 100%;
+    margin: 0;
+    
+}
+.imgmd {
+    background: #fff url("IMG/13380024_5215212.jpg");
+    background-size: cover;
+    height: 1004px;
+    padding-top: 100px;
+}
+.inicio{
+    height: 920px;
+    padding-top: 100px;
+    background-color: #e1e1e1;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+    background: rgb(17,17,17);
+    background: linear-gradient(90deg, rgba(17,17,17,1) 35%, rgba(253,29,29,1) 61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.tren1{
+    position: relative;
+    top: 74%;
+    left: 38%;
+}
+.calendario{
+    height: 920px;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+.ciudad{
+    position: relative;
+    top: 56.9%;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.articulo{
+    height: 920px;
+    padding-top: 100px;
+    background-color: #e1e1e1;
+}
+.mas{
+    height: 920px;
+    padding-top: 100px;
+    background-color: #ffffff;
+}
+
+#piepagina{
+    background: #ce1414;
+    padding: 1% 0;
+}
+.cajapie{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+
+}
+#piepagina p{
+    position: relative;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    top: 20px;
+    padding-left: 10px;
+}
+#piepagina ul{
+    width: 160px;
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+#piepagina ul li{
+    padding: 0px 15px;
+}
+#piepagina ul li a{
+    position: relative;
+    bottom: 58px;
+    left: 300px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    color: #ebb548;
+    font-size: 40px;
+    box-sizing: border-box;
+}
